@@ -649,7 +649,7 @@ body {
     text-align: center;
     margin-bottom: 10px; }
 
-@media (max-width: 775px) {
+@media (max-width: 832px) {
   .home-wrap header {
     width: auto;
     padding: 20px 0; }
@@ -669,7 +669,7 @@ body {
           -ms-flex-align: center;
               align-items: center; }
     .home-wrap header .site-nav,
-    .home-wrap header .email-link {
+    .home-wrap header .resume-link {
       display: none; }
     .home-wrap header .logo {
       height: 45px; }
@@ -831,6 +831,8 @@ section.gis {
     -webkit-justify-content: center;
         -ms-flex-pack: center;
             justify-content: center; }
+  section.gis .noheight {
+    height: 0px; }
   @media (max-width: 640px) {
     section.gis {
       display: -webkit-box;
@@ -849,7 +851,7 @@ section.gis {
       text-align: right; } }
 
 section.coding {
-  background-image: url(../img/coding-bg.jpg);
+  background-image: url(../img/coding-bg6.png);
   background-position: center;
   background-size: cover;
   color: white; }
@@ -875,6 +877,8 @@ section.coding {
     -webkit-justify-content: center;
         -ms-flex-pack: center;
             justify-content: center; }
+  section.coding .noheight {
+    height: 0px; }
   @media (max-width: 640px) {
     section.coding {
       display: -webkit-box;
@@ -1027,7 +1031,7 @@ section.conservation {
   display: -ms-flexbox;
   display: flex;
   min-height: 100vh; }
-  @media (max-width: 775px) {
+  @media (max-width: 832px) {
     .home-wrap {
       display: block; } }
 
