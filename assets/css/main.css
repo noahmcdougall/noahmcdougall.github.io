@@ -1025,6 +1025,36 @@ section.conservation {
     .home-footer {
       font-size: 20px; } }
 
+section.page-geoscience {
+  background-image: url(../img/geo-header3.png);
+  background-position: center;
+  background-size: cover; }
+  section.page-geoscience .col-2 {
+    height: 15vw; }
+  section.page-geoscience h2 {
+    font-size: 10vw;
+    color: #3f3f42;
+    weight: 400;
+    margin-left: -100%;
+    margin-right: -100%;
+    text-align: center;
+    margin-top: 0; }
+
+@media (max-width: 640px) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: rows;
+      -ms-flex-direction: rows;
+          flex-direction: rows;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+
 .home-wrap {
   display: -webkit-box;
   display: -webkit-flex;
