@@ -1025,13 +1025,13 @@ section.conservation {
     .home-footer {
       font-size: 20px; } }
 
-section.page-geoscience {
+section.page-geoscience-header {
   background-image: url(../img/geo-header3.png);
   background-position: center;
   background-size: cover; }
-  section.page-geoscience .col-2 {
+  section.page-geoscience-header .col-2 {
     height: 15vw; }
-  section.page-geoscience h2 {
+  section.page-geoscience-header h2 {
     font-size: 10vw;
     color: #3f3f42;
     weight: 400;
@@ -1050,6 +1050,62 @@ section.page-geoscience {
   -webkit-flex-direction: rows;
       -ms-flex-direction: rows;
           flex-direction: rows;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+
+section.page-geoscience-body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-position: center;
+  background-size: cover; }
+  section.page-geoscience-body .col-full {
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: auto;
+    text-align: center; }
+  section.page-geoscience-body .miningpic {
+    height: 300px;
+    background-image: url(../img/geo-body.jpg);
+    background-position: center;
+    background-size: cover; }
+  section.page-geoscience-body .textcol {
+    border-style: solid;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-width: medium;
+    height: 200px; }
+  section.page-geoscience-body h2 {
+    color: #ccc;
+    font-weight: 400; }
+
+@media (max-width: 640px) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: end;
   -webkit-justify-content: flex-end;
       -ms-flex-pack: end;
@@ -1079,9 +1135,9 @@ section.page-geoscience {
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: rows;
-        -ms-flex-direction: rows;
-            flex-direction: rows; }
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row; }
   .home-sections .flex--center {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
