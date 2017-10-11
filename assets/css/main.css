@@ -1097,8 +1097,11 @@ section.page-geoscience-body {
     background-color: rgba(255, 255, 255, 0.6);
     border-width: medium;
     height: 200px; }
+  section.page-geoscience-body hr {
+    height: 1px;
+    background-color: #ccc; }
   section.page-geoscience-body h2 {
-    color: #ccc;
+    color: #585858;
     font-weight: 400; }
 
 @media (max-width: 640px) {
