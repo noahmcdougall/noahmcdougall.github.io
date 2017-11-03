@@ -1087,11 +1087,29 @@ section.page-geoscience-body {
             flex-direction: row;
     height: auto;
     text-align: justify; }
+  section.page-geoscience-body .col-half {
+    width: 40%;
+    min-width: 320px;
+    padding-bottom: 100px; }
   section.page-geoscience-body .miningpic {
     height: 100%;
     background-image: url(../img/geo-body2.jpg);
     background-position: center;
-    background-size: cover; }
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-box-shadow: 0px 4px 40px 3px rgba(0, 0, 0, 0.5); }
+  section.page-geoscience-body .oilandgaspic {
+    height: 100%;
+    background-image: url(http://aemstatic-ww1.azureedge.net/content/dam/etc/medialib/shell/perdido/99561.res);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; }
+  section.page-geoscience-body .masterspic {
+    height: 100%;
+    background-image: url(http://getfilings.com/sec-filings/170130/HYPERDYNAMICS-CORP_8-K_FORM2/g34212moi012.gif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; }
   section.page-geoscience-body .videocontent {
     -webkit-align-self: center;
         -ms-flex-item-align: center;
@@ -1100,14 +1118,9 @@ section.page-geoscience-body {
   section.page-geoscience-body .flex-video {
     -webkit-box-shadow: 0px 4px 40px 3px rgba(0, 0, 0, 0.5);
             box-shadow: 0px 4px 40px 3px rgba(0, 0, 0, 0.5);
-    -webkit-transform: scale(1.5);
-        -ms-transform: scale(1.5);
-            transform: scale(1.5); }
-  section.page-geoscience-body .textcol {
-    border-style: solid;
-    background-color: rgba(255, 255, 255, 0.6);
-    border-width: medium;
-    height: 200px; }
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1); }
   section.page-geoscience-body hr {
     height: 1px;
     background-color: #ccc; }
