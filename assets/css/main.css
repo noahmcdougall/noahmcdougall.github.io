@@ -1264,6 +1264,360 @@ section.page-cartography-body {
       -ms-flex-pack: end;
           justify-content: flex-end; }
 
+section.page-coding-header {
+  background-image: url(../img/geo-header3.png);
+  background-position: center;
+  background-size: cover; }
+  section.page-coding-header .col-2 {
+    height: 15vw; }
+  section.page-coding-header h2 {
+    font-size: 10vw;
+    color: #3f3f42;
+    weight: 400;
+    margin-left: -100%;
+    margin-right: -100%;
+    text-align: center;
+    margin-top: 0; }
+
+@media (max-width: 640px) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: rows;
+      -ms-flex-direction: rows;
+          flex-direction: rows;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+
+section.page-coding-body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  section.page-coding-body .col-full {
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: auto;
+    text-align: justify; }
+  section.page-coding-body .col-half {
+    width: 40%;
+    min-width: 320px;
+    padding-bottom: 100px; }
+  section.page-coding-body .mininggispic {
+    height: 100%;
+    background-image: url(../img/geo-mining.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-box-shadow: 0px 4px 40px 3px rgba(0, 0, 0, 0.5); }
+  section.page-coding-body .oilandgasgispic {
+    height: 100%;
+    background-image: url(http://aemstatic-ww1.azureedge.net/content/dam/etc/medialib/shell/perdido/99561.res);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; }
+  section.page-coding-body .mastersgispic {
+    height: 100%;
+    background-image: url(http://getfilings.com/sec-filings/170130/HYPERDYNAMICS-CORP_8-K_FORM2/g34212moi012.gif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; }
+  section.page-coding-body .gisposterpic {
+    height: 100%;
+    background-image: url(../img/geo-bachelor.gif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; }
+  section.page-coding-body .videocontent {
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+                -ms-grid-row-align: center;
+            align-self: center; }
+  section.page-coding-body .flex-video {
+    -webkit-box-shadow: 0px 4px 40px 3px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 4px 40px 3px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1); }
+  section.page-coding-body hr {
+    height: 1px;
+    background-color: #ccc; }
+  section.page-coding-body h2 {
+    color: #585858;
+    font-weight: 400;
+    text-align: center; }
+
+@media (max-width: 640px) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+
+section.page-caving-header {
+  background-image: url(../img/geo-header3.png);
+  background-position: center;
+  background-size: cover; }
+  section.page-caving-header .col-2 {
+    height: 15vw; }
+  section.page-caving-header h2 {
+    font-size: 10vw;
+    color: #3f3f42;
+    weight: 400;
+    margin-left: -100%;
+    margin-right: -100%;
+    text-align: center;
+    margin-top: 0; }
+
+@media (max-width: 640px) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: rows;
+      -ms-flex-direction: rows;
+          flex-direction: rows;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+
+section.page-caving-body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  section.page-caving-body .col-full {
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: auto;
+    text-align: justify; }
+  section.page-caving-body .col-half {
+    width: 40%;
+    min-width: 320px;
+    padding-bottom: 100px; }
+  section.page-caving-body .mininggispic {
+    height: 100%;
+    background-image: url(../img/geo-mining.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-box-shadow: 0px 4px 40px 3px rgba(0, 0, 0, 0.5); }
+  section.page-caving-body .oilandgasgispic {
+    height: 100%;
+    background-image: url(http://aemstatic-ww1.azureedge.net/content/dam/etc/medialib/shell/perdido/99561.res);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; }
+  section.page-caving-body .mastersgispic {
+    height: 100%;
+    background-image: url(http://getfilings.com/sec-filings/170130/HYPERDYNAMICS-CORP_8-K_FORM2/g34212moi012.gif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; }
+  section.page-caving-body .gisposterpic {
+    height: 100%;
+    background-image: url(../img/geo-bachelor.gif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; }
+  section.page-caving-body .videocontent {
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+                -ms-grid-row-align: center;
+            align-self: center; }
+  section.page-caving-body .flex-video {
+    -webkit-box-shadow: 0px 4px 40px 3px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 4px 40px 3px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1); }
+  section.page-caving-body hr {
+    height: 1px;
+    background-color: #ccc; }
+  section.page-caving-body h2 {
+    color: #585858;
+    font-weight: 400;
+    text-align: center; }
+
+@media (max-width: 640px) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+
+section.page-conservation-header {
+  background-image: url(../img/geo-header3.png);
+  background-position: center;
+  background-size: cover; }
+  section.page-conservation-header .col-2 {
+    height: 15vw; }
+  section.page-conservation-header h2 {
+    font-size: 10vw;
+    color: #3f3f42;
+    weight: 400;
+    margin-left: -100%;
+    margin-right: -100%;
+    text-align: center;
+    margin-top: 0; }
+
+@media (max-width: 640px) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: rows;
+      -ms-flex-direction: rows;
+          flex-direction: rows;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+
+section.page-conservation-body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  section.page-conservation-body .col-full {
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: auto;
+    text-align: justify; }
+  section.page-conservation-body .col-half {
+    width: 40%;
+    min-width: 320px;
+    padding-bottom: 100px; }
+  section.page-conservation-body .mininggispic {
+    height: 100%;
+    background-image: url(../img/geo-mining.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-box-shadow: 0px 4px 40px 3px rgba(0, 0, 0, 0.5); }
+  section.page-conservation-body .oilandgasgispic {
+    height: 100%;
+    background-image: url(http://aemstatic-ww1.azureedge.net/content/dam/etc/medialib/shell/perdido/99561.res);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; }
+  section.page-conservation-body .mastersgispic {
+    height: 100%;
+    background-image: url(http://getfilings.com/sec-filings/170130/HYPERDYNAMICS-CORP_8-K_FORM2/g34212moi012.gif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; }
+  section.page-conservation-body .gisposterpic {
+    height: 100%;
+    background-image: url(../img/geo-bachelor.gif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; }
+  section.page-conservation-body .videocontent {
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+                -ms-grid-row-align: center;
+            align-self: center; }
+  section.page-conservation-body .flex-video {
+    -webkit-box-shadow: 0px 4px 40px 3px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 4px 40px 3px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1); }
+  section.page-conservation-body hr {
+    height: 1px;
+    background-color: #ccc; }
+  section.page-conservation-body h2 {
+    color: #585858;
+    font-weight: 400;
+    text-align: center; }
+
+@media (max-width: 640px) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+
 .home-wrap {
   display: -webkit-box;
   display: -webkit-flex;
