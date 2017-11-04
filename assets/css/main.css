@@ -1094,7 +1094,7 @@ section.page-geoscience-body {
     padding-bottom: 100px; }
   section.page-geoscience-body .miningpic {
     height: 100%;
-    background-image: url(../img/geo-body2.jpg);
+    background-image: url(../img/geo-mining.jpg);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1108,6 +1108,12 @@ section.page-geoscience-body {
   section.page-geoscience-body .masterspic {
     height: 100%;
     background-image: url(http://getfilings.com/sec-filings/170130/HYPERDYNAMICS-CORP_8-K_FORM2/g34212moi012.gif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; }
+  section.page-geoscience-body .bachelorspic {
+    height: 100%;
+    background-image: url(../img/geo-bachelor.gif);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat; }
