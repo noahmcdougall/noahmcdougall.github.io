@@ -1053,6 +1053,8 @@ section.page-geoscience-header {
     height: 4vw; }
 
 @media (max-width: 640px) {
+  .col-full {
+    display: block; }
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
