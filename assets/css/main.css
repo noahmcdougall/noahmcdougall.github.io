@@ -1013,18 +1013,12 @@ section.conservation {
     width: 100%;
     line-height: 3;
     text-align: center;
-    font-size: 50px;
+    font-size: 5vw;
     font-weight: 300;
     -webkit-transition: background 150ms ease-in-out;
     transition: background 150ms ease-in-out; }
     .home-footer a:hover {
       background: #38588d; }
-  @media (max-width: 550px) {
-    .home-footer {
-      font-size: 30px; } }
-  @media (max-width: 430px) {
-    .home-footer {
-      font-size: 20px; } }
 
 section.page-geoscience-header {
   background-image: url(../img/geo-header3.png);
