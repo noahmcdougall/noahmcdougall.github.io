@@ -1051,9 +1051,7 @@ section.page-geoscience-body {
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
-          align-items: center;
-  background-position: center;
-  background-size: cover; }
+          align-items: center; }
   section.page-geoscience-body .col-full {
     -webkit-justify-content: space-around;
         -ms-flex-pack: distribute;
@@ -1075,10 +1073,10 @@ section.page-geoscience-body {
     min-width: 280px;
     padding-bottom: 100px; }
   section.page-geoscience-body .order-first {
-    -webkit-box-ordinal-group: 0;
-    -webkit-order: -1;
-        -ms-flex-order: -1;
-            order: -1; }
+    -webkit-box-ordinal-group: 1;
+    -webkit-order: 0;
+        -ms-flex-order: 0;
+            order: 0; }
   section.page-geoscience-body .miningpic {
     height: 100%;
     background-image: url(../img/geo-mining.jpg);
@@ -1134,6 +1132,11 @@ section.page-geoscience-body {
       margin-left: 20px;
       margin-right: 20px;
       padding-bottom: 20px; }
+    section.page-geoscience-body .order-first {
+      -webkit-box-ordinal-group: 0;
+      -webkit-order: -1;
+          -ms-flex-order: -1;
+              order: -1; }
     section.page-geoscience-body .miningpic {
       height: 300px; }
     section.page-geoscience-body .oilandgaspic {
@@ -1501,31 +1504,13 @@ section.page-conservation-header {
   background-image: url(../img/geo-header3.png);
   background-position: center;
   background-size: cover; }
-  section.page-conservation-header .col-2 {
-    height: 15vw; }
   section.page-conservation-header h2 {
     font-size: 10vw;
     color: #3f3f42;
     weight: 400;
-    margin-left: -100%;
-    margin-right: -100%;
     text-align: center;
-    margin-top: 0; }
-
-@media (max-width: 640px) {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: rows;
-      -ms-flex-direction: rows;
-          flex-direction: rows;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-      -ms-flex-pack: end;
-          justify-content: flex-end; }
+    margin-top: 0;
+    height: 4vw; }
 
 section.page-conservation-body {
   display: -webkit-box;
@@ -1545,7 +1530,7 @@ section.page-conservation-body {
     -webkit-justify-content: space-around;
         -ms-flex-pack: distribute;
             justify-content: space-around;
-    width: 100%;
+    width: auto;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1559,30 +1544,16 @@ section.page-conservation-body {
     text-align: justify; }
   section.page-conservation-body .col-half {
     width: 40%;
-    min-width: 320px;
+    min-width: 280px;
     padding-bottom: 100px; }
-  section.page-conservation-body .mininggispic {
+  section.page-conservation-body .order-first {
+    -webkit-box-ordinal-group: 1;
+    -webkit-order: 0;
+        -ms-flex-order: 0;
+            order: 0; }
+  section.page-conservation-body .placeholderpic {
     height: 100%;
-    background-image: url(../img/geo-mining.jpg);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-box-shadow: 0px 4px 40px 3px rgba(0, 0, 0, 0.5); }
-  section.page-conservation-body .oilandgasgispic {
-    height: 100%;
-    background-image: url(http://aemstatic-ww1.azureedge.net/content/dam/etc/medialib/shell/perdido/99561.res);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat; }
-  section.page-conservation-body .mastersgispic {
-    height: 100%;
-    background-image: url(http://getfilings.com/sec-filings/170130/HYPERDYNAMICS-CORP_8-K_FORM2/g34212moi012.gif);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat; }
-  section.page-conservation-body .gisposterpic {
-    height: 100%;
-    background-image: url(../img/geo-bachelor.gif);
+    background-image: url(../img/olive.jpg);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat; }
@@ -1604,16 +1575,25 @@ section.page-conservation-body {
     color: #585858;
     font-weight: 400;
     text-align: center; }
-
-@media (max-width: 640px) {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-      -ms-flex-pack: end;
-          justify-content: flex-end; }
+  @media (max-width: 640px) {
+    section.page-conservation-body .col-full {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+    section.page-conservation-body .col-half {
+      width: auto;
+      margin-left: 20px;
+      margin-right: 20px;
+      padding-bottom: 20px; }
+    section.page-conservation-body .order-first {
+      -webkit-box-ordinal-group: 0;
+      -webkit-order: -1;
+          -ms-flex-order: -1;
+              order: -1; }
+    section.page-conservation-body .placeholderpic {
+      height: 300px; } }
 
 .home-wrap {
   display: -webkit-box;
