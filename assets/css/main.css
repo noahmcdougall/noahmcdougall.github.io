@@ -1197,6 +1197,12 @@ section.page-cartography-body {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat; }
+  section.page-cartography-body .carto-landworks {
+    height: 100%;
+    background-image: url(../img/carto-landworks2.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; }
   section.page-cartography-body .carto-masters {
     height: 100%;
     background-image: url(../img/carto-masters.png);
@@ -1245,6 +1251,12 @@ section.page-cartography-body {
           -ms-flex-order: -1;
               order: -1; }
     section.page-cartography-body .placeholderpic {
+      height: 300px; }
+    section.page-cartography-body .carto-landworks {
+      height: 300px; }
+    section.page-cartography-body .carto-masters {
+      height: 300px; }
+    section.page-cartography-body .carto-bachelors {
       height: 300px; } }
 
 section.page-coding-header {
