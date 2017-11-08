@@ -1141,7 +1141,7 @@ section.page-geoscience-body {
       height: 300px; } }
 
 section.page-cartography-header {
-  background-image: url(../img/geo-header3.png);
+  background-image: url(../img/carto-header.jpg);
   background-position: center;
   background-size: cover; }
   section.page-cartography-header h2 {
@@ -1194,6 +1194,18 @@ section.page-cartography-body {
   section.page-cartography-body .placeholderpic {
     height: 100%;
     background-image: url(../img/olive.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; }
+  section.page-cartography-body .carto-masters {
+    height: 100%;
+    background-image: url(../img/carto-masters.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; }
+  section.page-cartography-body .carto-bachelors {
+    height: 100%;
+    background-image: url(../img/carto-bachelors.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat; }
