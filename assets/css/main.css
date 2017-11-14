@@ -1262,12 +1262,12 @@ section.page-cartography-body {
       height: 300px; } }
 
 section.page-coding-header {
-  background-image: url(../img/geo-header3.png);
+  background-image: url(../img/coding-header.jpg);
   background-position: center;
   background-size: cover; }
   section.page-coding-header h2 {
     font-size: 10vw;
-    color: #3f3f42;
+    color: #d7cfcf;
     weight: 400;
     text-align: center;
     margin-top: 0;
