@@ -1355,7 +1355,7 @@ section.page-coding-body {
       height: 300px; } }
 
 section.page-caving-header {
-  background-image: url(../img/geo-header3.png);
+  background-image: url(../img/caving-header.jpg);
   background-position: center;
   background-size: cover; }
   section.page-caving-header h2 {
@@ -1384,7 +1384,7 @@ section.page-caving-body {
     -webkit-justify-content: space-around;
         -ms-flex-pack: distribute;
             justify-content: space-around;
-    width: auto;
+    width: 100%;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
