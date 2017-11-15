@@ -543,7 +543,7 @@ body {
 
 .home-wrap header {
   width: 135px;
-  background: #e2e5f0;
+  background: #f4f4f6;
   padding: 30px 0; }
   .home-wrap header .header-position {
     position: fixed;
@@ -1046,7 +1046,7 @@ section.page-geoscience-body {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #e2e5f0; }
+  background-color: #f4f4f6; }
   section.page-geoscience-body .col-full {
     -webkit-justify-content: space-around;
         -ms-flex-pack: distribute;
@@ -1167,7 +1167,7 @@ section.page-cartography-body {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #e2e5f0; }
+  background-color: #f4f4f6; }
   section.page-cartography-body .col-full {
     -webkit-justify-content: space-around;
         -ms-flex-pack: distribute;
@@ -1287,7 +1287,7 @@ section.page-coding-body {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #e2e5f0; }
+  background-color: #f4f4f6; }
   section.page-coding-body .col-full {
     -webkit-justify-content: space-around;
         -ms-flex-pack: distribute;
@@ -1383,7 +1383,7 @@ section.page-caving-body {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #e2e5f0; }
+  background-color: #f4f4f6; }
   section.page-caving-body .col-full {
     -webkit-justify-content: space-around;
         -ms-flex-pack: distribute;
@@ -1409,6 +1409,12 @@ section.page-caving-body {
     -webkit-order: 0;
         -ms-flex-order: 0;
             order: 0; }
+  section.page-caving-body .cavingsecretarypic {
+    height: 100%;
+    background-image: url(../img/caving-secretary.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; }
   section.page-caving-body .placeholderpic {
     height: 100%;
     background-image: url(../img/olive.jpg);
@@ -1479,7 +1485,7 @@ section.page-conservation-body {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #e2e5f0; }
+  background-color: #f4f4f6; }
   section.page-conservation-body .col-full {
     -webkit-justify-content: space-around;
         -ms-flex-pack: distribute;
