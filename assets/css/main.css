@@ -1384,6 +1384,23 @@ section.page-caving-body {
       -ms-flex-align: center;
           align-items: center;
   background-color: #f4f4f6; }
+  section.page-caving-body .col-intro {
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    width: 90%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    text-align: justify;
+    padding-bottom: 20px; }
   section.page-caving-body .col-full {
     -webkit-justify-content: space-around;
         -ms-flex-pack: distribute;
@@ -1410,8 +1427,14 @@ section.page-caving-body {
         -ms-flex-order: 0;
             order: 0; }
   section.page-caving-body .cavingsecretarypic {
-    height: 100%;
+    height: 300px;
     background-image: url(../img/caving-secretary.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; }
+  section.page-caving-body .cavingGHGgroup {
+    height: 300px;
+    background-image: url(../img/caving-GHGgroup.jpg);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat; }
