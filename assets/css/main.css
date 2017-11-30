@@ -1629,18 +1629,39 @@ section.page-caving-body {
             transform: scale(1); }
   section.page-caving-body hr {
     height: 1px;
-    background-color: #ccc; }
+    background-color: #ccc;
+    margin-top: 0px; }
   section.page-caving-body h2 {
     color: #585858;
     font-weight: 400;
     text-align: center; }
+  section.page-caving-body .row.img-row-mobile {
+    display: none; }
+  section.page-caving-body .invisible {
+    display: none; }
   @media (max-width: 640px) {
+    section.page-caving-body .row.img-row-mobile {
+      display: inherit; }
+    section.page-caving-body .row.img-row {
+      display: none; }
+    section.page-caving-body figure.twelve.columns {
+      margin: 0px; }
     section.page-caving-body .col-full {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
       -webkit-flex-direction: column;
           -ms-flex-direction: column;
-              flex-direction: column; }
+              flex-direction: column;
+      width: 90%; }
+    section.page-caving-body .col-intro {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
     section.page-caving-body .col-half {
       width: auto;
       margin-left: 20px;
