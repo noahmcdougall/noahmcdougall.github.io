@@ -1539,6 +1539,8 @@ section.page-coding-body {
       -webkit-order: -1;
           -ms-flex-order: -1;
               order: -1; }
+    section.page-coding-body .coding-geostriker {
+      height: 300px; }
     section.page-coding-body .placeholderpic {
       height: 300px; } }
 
