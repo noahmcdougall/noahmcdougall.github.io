@@ -1451,6 +1451,12 @@ section.page-coding-header {
     text-align: center;
     margin-top: 0;
     height: 4vw; }
+  section.page-coding-header .coding-geostriker {
+    height: 100%;
+    background-image: url(../img/coding-geostriker.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; }
 
 section.page-coding-body {
   display: -webkit-box;
