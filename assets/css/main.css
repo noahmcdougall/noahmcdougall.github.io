@@ -1498,6 +1498,12 @@ section.page-coding-body {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat; }
+  section.page-coding-body .coding-gis {
+    height: 100%;
+    background-image: url(../img/coding-gis.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; }
   section.page-coding-body .placeholderpic {
     height: 100%;
     background-image: url(../img/olive.jpg);
@@ -1539,6 +1545,8 @@ section.page-coding-body {
       -webkit-order: -1;
           -ms-flex-order: -1;
               order: -1; }
+    section.page-coding-body .coding-gis {
+      height: 300px; }
     section.page-coding-body .coding-geostriker {
       height: 300px; }
     section.page-coding-body .placeholderpic {
