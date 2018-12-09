@@ -949,10 +949,20 @@ section.geoscience {
     z-index: 2;
     pointer-events: none;
     background-image: url(../img/geoscience-bg_2.png);
-    background-position: -webkit-calc(50% + 100px) -webkit-calc(50% + 40px);
-    background-position: calc(50% + 100px) calc(50% + 40px);
+    background-position: -webkit-calc(50%) -webkit-calc(50% + 120px);
+    background-position: calc(50%) calc(50% + 120px);
     background-size: cover;
     background-repeat: no-repeat; }
+  section.geoscience .invisible {
+    visibility: hidden; }
+  section.geoscience .makevisible {
+    visibility: visible;
+    -webkit-transition: all 2s ease-in-out;
+    transition: all 2s ease-in-out; }
+  section.geoscience .makeinvisible {
+    visibility: hidden;
+    -webkit-transition: all 2s ease-in-out;
+    transition: all 2s ease-in-out; }
   section.geoscience .col-1 {
     position: relative;
     height: 500px;
@@ -1752,6 +1762,12 @@ section.page-conservation-body {
     -webkit-order: 0;
         -ms-flex-order: 0;
             order: 0; }
+  section.page-conservation-body .conservation-elm {
+    height: 100%;
+    background-image: url(../img/conservation-elm.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; }
   section.page-conservation-body .placeholderpic {
     height: 100%;
     background-image: url(../img/olive.jpg);
