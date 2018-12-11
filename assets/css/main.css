@@ -949,8 +949,8 @@ section.geoscience {
     z-index: 2;
     pointer-events: none;
     background-image: url(../img/geoscience-bg_2.png);
-    background-position: -webkit-calc(50%) -webkit-calc(50% + 120px);
-    background-position: calc(50%) calc(50% + 120px);
+    background-position: -webkit-calc(50%) -webkit-calc(50% + 140px);
+    background-position: calc(50%) calc(50% + 140px);
     background-size: cover;
     background-repeat: no-repeat; }
   section.geoscience .invisible {
