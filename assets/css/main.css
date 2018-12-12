@@ -974,7 +974,7 @@ section.geoscience {
   section.geoscience .frontlayer {
     z-index: 5; }
   section.geoscience .fadein {
-    opcaity: 0; }
+    opacity: 0; }
   section.geoscience .geotextScroll {
     margin: -50px 10px; }
   @media (max-width: 640px) {
