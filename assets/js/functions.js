@@ -44,18 +44,25 @@ function geoscienceScroll() {
 	}
 
 	//Defines text column scrolling
-	var geotextScroll = $(window).scrollTop();
-	$('.geotextscroll').css('margin', 'calc(-50px - '+ (geotextScroll / 8) +'px 10px');
+	//var geotextScroll = $(window).scrollTop();
+	//$('.geotextscroll').css('margin', 'calc(-50px - '+ (geotextScroll / 8) +'px 10px');
 
-	//Visibility flipper
-	//if($(window).scrollTop()>250) {
-	//	$('.col-1').addClass('makeinvisible');
-	//}
+	//fadeout text
+	if (geoforeScroll > 350) {
+		$(".fadeout").css("opacity", 1 - (geoforeScroll - 350) / 200);
+	}
+
+	//fadein text
+	if (geoforeScroll > 350) {
+		$(".fadein").css("opacity", (geoforeScroll - 350) / 200);
+	} else {
+		$(".fadein").css("opacity", 0);
+	}
 
 	//Defines the background scrolling
 	var geobackScroll = $(window).scrollTop();
 	if($(window).scrollTop()>$maxgeoScroll) geobackScroll=$maxgeoScroll;
-	if (geobackScroll >150) {
+	if (geobackScroll > 150) {
 		$('.staticbackground').css('background-position','center calc(50% - '+ (-25 + geobackScroll / 6) +'px)');
 	}
 }

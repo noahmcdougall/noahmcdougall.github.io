@@ -954,16 +954,6 @@ section.geoscience {
     background-position: calc(50%) calc(50% + 140px);
     background-size: cover;
     background-repeat: no-repeat; }
-  section.geoscience .invisible {
-    visibility: hidden; }
-  section.geoscience .makevisible {
-    visibility: visible;
-    -webkit-transition: all 2s ease-in-out;
-    transition: all 2s ease-in-out; }
-  section.geoscience .makeinvisible {
-    visibility: hidden;
-    -webkit-transition: all 2s ease-in-out;
-    transition: all 2s ease-in-out; }
   section.geoscience .col-1 {
     position: relative;
     height: 500px;
@@ -981,6 +971,8 @@ section.geoscience {
         -ms-flex-pack: center;
             justify-content: center;
     margin: -50px 10px; }
+  section.geoscience .frontlayer {
+    z-index: 5; }
   section.geoscience .geotextScroll {
     margin: -50px 10px; }
   @media (max-width: 640px) {
