@@ -937,7 +937,8 @@ section.geoscience {
     height: 600px;
     margin: -50px 0;
     background-image: url(../img/geoscience-bg_1-2.png);
-    background-position: center;
+    background-position: -webkit-calc(50%) -webkit-calc(50%);
+    background-position: calc(50%) calc(50%);
     background-size: cover;
     background-repeat: no-repeat; }
   section.geoscience .dynamicbackground {

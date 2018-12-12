@@ -38,7 +38,7 @@ function geoscienceScroll() {
 	var $maxgeoScroll=590;
 	if($(window).scrollTop()>$maxgeoScroll) geoforeScroll=$maxgeoScroll;
 	if (geoforeScroll > 150) {
-		$('.dynamicbackground').css('background-position','calc(50%) calc(50% - '+ (-215 + geoforeScroll / 1.5) +'px)');
+		$('.dynamicbackground').css('background-position','calc(50%) calc(50% - '+ (-240 + geoforeScroll / 1.5) +'px)');
 	} else {
 		$('.dynamicbackground').css('background-position','calc(50%) calc(50% + 140px)');
 	}
@@ -56,7 +56,7 @@ function geoscienceScroll() {
 	var geobackScroll = $(window).scrollTop();
 	if($(window).scrollTop()>$maxgeoScroll) geobackScroll=$maxgeoScroll;
 	if (geobackScroll >150) {
-		$('.staticbackground').css('background-position','center calc(50% - '+ (geobackScroll / 6) +'px)');
+		$('.staticbackground').css('background-position','center calc(50% - '+ (-25 + geobackScroll / 6) +'px)');
 	}
 }
 
