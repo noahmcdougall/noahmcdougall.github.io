@@ -816,7 +816,7 @@ html.lb-disable-scrolling {
               transform: rotate(-45deg); }
 
 .home-wrap .mobile-nav {
-  display: none;
+  display: block;
   position: absolute;
   width: 100%;
   background: white;
