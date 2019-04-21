@@ -927,7 +927,11 @@ section.geoscience {
   position: relative;
   color: white;
   height: 400px;
-  overflow: hidden; }
+  overflow: hidden;
+  background-image: url(../img/geoscience-bg_mobile.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
   section.geoscience .home-cta {
     color: #595a68; }
   section.geoscience .staticbackground {
@@ -978,8 +982,10 @@ section.geoscience {
   section.geoscience .geotextScroll {
     margin: -50px 10px; }
   @media (max-width: 640px) {
-    section.geoscience .geoscience-overlay {
-      background-position: center; }
+    section.geoscience .staticbackground {
+      visibility: hidden; }
+    section.geoscience .dynamicbackground {
+      visibility: hidden; }
     section.geoscience .col-1 {
       width: -webkit-calc(100% - 20px);
       width: calc(100% - 20px);
