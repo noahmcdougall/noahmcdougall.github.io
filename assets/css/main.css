@@ -725,6 +725,7 @@ html.lb-disable-scrolling {
   background: #f4f4f6;
   padding: 30px 0; }
   .home-wrap header .header-position {
+    pointer-events: none;
     position: fixed;
     top: 30px;
     left: 0;
@@ -743,7 +744,12 @@ html.lb-disable-scrolling {
     -webkit-justify-content: space-between;
         -ms-flex-pack: justify;
             justify-content: space-between; }
+  .home-wrap header a {
+    color: #999; }
+    .home-wrap header a:hover, .home-wrap header a:active {
+      color: #666; }
   .home-wrap header .logo {
+    pointer-events: all;
     overflow: hidden;
     text-indent: 101%;
     white-space: nowrap;
@@ -769,6 +775,7 @@ html.lb-disable-scrolling {
     text-align: right;
     padding-right: 20px; }
   .home-wrap header .mobile-nav-toggle {
+    pointer-events: all;
     display: none;
     width: 50px;
     height: 50px;
