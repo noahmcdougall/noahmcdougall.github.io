@@ -725,7 +725,6 @@ html.lb-disable-scrolling {
   background: #f4f4f6;
   padding: 30px 0; }
   .home-wrap header .header-position {
-    pointer-events: none;
     position: fixed;
     top: 30px;
     left: 0;
@@ -844,6 +843,7 @@ html.lb-disable-scrolling {
     width: auto;
     padding: 20px 0; }
     .home-wrap header .header-position {
+      pointer-events: none;
       width: auto;
       position: relative;
       top: auto;
