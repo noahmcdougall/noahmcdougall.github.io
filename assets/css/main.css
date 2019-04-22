@@ -1147,6 +1147,95 @@ section.caving {
         section.caving .col-1:last-child {
           display: none; } }
 
+section.projectmanagement {
+  background-image: url(../img/projectmanagement-bg-offhover.png);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out; }
+  section.projectmanagement:hover {
+    background-image: url(../img/projectmanagement-bg-onhover.png);
+    background-position: left;
+    background-size: cover; }
+    section.projectmanagement:hover .hoverremove {
+      visibility: hidden; }
+  section.projectmanagement .talkbubble {
+    position: absolute;
+    height: 30%;
+    width: 50%;
+    max-width: 320px;
+    -webkit-transform: translate(35px, 0px);
+        -ms-transform: translate(35px, 0px);
+            transform: translate(35px, 0px);
+    background-image: url(../img/talkbubble.png);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat; }
+  section.projectmanagement .col-1 {
+    height: 400px;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  @media (max-width: 640px) {
+    section.projectmanagement {
+      background-image: url(../img/projectmanagement-bg-mobile.png);
+      background-position: left;
+      background-size: cover;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: rows;
+          -ms-flex-direction: rows;
+              flex-direction: rows;
+      -webkit-box-pack: end;
+      -webkit-justify-content: flex-end;
+          -ms-flex-pack: end;
+              justify-content: flex-end;
+      text-align: right; }
+      section.projectmanagement .home-cta {
+        color: #595a68; }
+      section.projectmanagement .col-1 {
+        height: 400px;
+        position: relative;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: end;
+        -webkit-justify-content: flex-end;
+            -ms-flex-pack: end;
+                justify-content: flex-end; }
+        section.projectmanagement .col-1 p {
+          width: 100%; }
+      section.projectmanagement:hover {
+        background-image: url(../img/projectmanagement-bg-mobile.png);
+        background-position: left;
+        background-size: cover; }
+      section.projectmanagement .noheight {
+        height: 0px; }
+      section.projectmanagement .talkbubble {
+        display: none; } }
+
 section.conservation {
   background-image: url(../img/conservation-bg2.png);
   background-position: center 30%;
