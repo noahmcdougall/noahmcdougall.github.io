@@ -1828,6 +1828,127 @@ section.page-caving-body {
     section.page-caving-body .placeholderpic {
       height: 300px; } }
 
+section.page-projectmanagement-header {
+  background-image: url(../img/projectmanagement-bg-onhover.png);
+  background-position: center;
+  background-size: cover; }
+  section.page-projectmanagement-header h2 {
+    font-size: 7vw;
+    color: #3f3f42;
+    weight: 400;
+    text-align: center;
+    margin-top: 0;
+    height: 7vw; }
+
+section.page-projectmanagement-body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f4f4f6; }
+  section.page-projectmanagement-body .col-full {
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    width: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: auto;
+    text-align: justify; }
+  section.page-projectmanagement-body .col-half {
+    width: 40%;
+    min-width: 280px;
+    padding-bottom: 100px; }
+  section.page-projectmanagement-body .order-first {
+    -webkit-box-ordinal-group: 1;
+    -webkit-order: 0;
+        -ms-flex-order: 0;
+            order: 0; }
+  section.page-projectmanagement-body .miningpic {
+    height: 100%;
+    background-image: url(../img/geo-mining3.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-box-shadow: 0px 4px 40px 3px rgba(0, 0, 0, 0.5); }
+  section.page-projectmanagement-body .oilandgaspic {
+    height: 100%;
+    background-image: url(http://aemstatic-ww1.azureedge.net/content/dam/etc/medialib/shell/perdido/99561.res);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; }
+  section.page-projectmanagement-body .masterspic {
+    height: 100%;
+    background-image: url(http://getfilings.com/sec-filings/170130/HYPERDYNAMICS-CORP_8-K_FORM2/g34212moi012.gif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; }
+  section.page-projectmanagement-body .bachelorspic {
+    height: 100%;
+    background-image: url(../img/geo-bachelor.gif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; }
+  section.page-projectmanagement-body .videocontent {
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+                -ms-grid-row-align: center;
+            align-self: center; }
+  section.page-projectmanagement-body .flex-video {
+    -webkit-box-shadow: 0px 4px 40px 3px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 4px 40px 3px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1); }
+  section.page-projectmanagement-body hr {
+    height: 1px;
+    background-color: #ccc; }
+  section.page-projectmanagement-body h2 {
+    color: #585858;
+    font-weight: 400;
+    text-align: center; }
+  @media (max-width: 640px) {
+    section.page-projectmanagement-body .col-full {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+    section.page-projectmanagement-body .col-half {
+      width: auto;
+      margin-left: 20px;
+      margin-right: 20px;
+      padding-bottom: 20px; }
+    section.page-projectmanagement-body .order-first {
+      -webkit-box-ordinal-group: 0;
+      -webkit-order: -1;
+          -ms-flex-order: -1;
+              order: -1; }
+    section.page-projectmanagement-body .miningpic {
+      height: 300px; }
+    section.page-projectmanagement-body .oilandgaspic {
+      height: 300px; }
+    section.page-projectmanagement-body .masterspic {
+      height: 300px; }
+    section.page-projectmanagement-body .bachelorspic {
+      height: 300px; } }
+
 section.page-conservation-header {
   background-image: url(../img/geo-header3.png);
   background-position: center;
