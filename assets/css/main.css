@@ -1398,6 +1398,11 @@ section.page-geoscience-body {
     -webkit-transform: scale(1);
         -ms-transform: scale(1);
             transform: scale(1); }
+  section.page-geoscience-body ul {
+    font-weight: bold; }
+  section.page-geoscience-body li {
+    font-weight: normal;
+    margin-bottom: 0px; }
   section.page-geoscience-body hr {
     height: 1px;
     background-color: #ccc; }
