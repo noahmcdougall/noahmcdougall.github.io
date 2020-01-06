@@ -773,6 +773,8 @@ html.lb-disable-scrolling {
     display: block;
     text-align: right;
     padding-right: 20px; }
+  .home-wrap header .mobileonly {
+    display: none; }
   .home-wrap header .mobile-nav-toggle {
     pointer-events: all;
     display: none;
@@ -861,6 +863,8 @@ html.lb-disable-scrolling {
     .home-wrap header .site-nav,
     .home-wrap header .resume-link {
       display: none; }
+    .home-wrap header .mobileonly {
+      display: block; }
     .home-wrap header .logo {
       height: 45px; }
     .home-wrap header .mobile-nav-toggle {
@@ -1835,7 +1839,7 @@ section.page-caving-body {
 
 section.page-projectmanagement-header {
   background-image: url(../img/projectmanagement-bg-onhover.png);
-  background-position: center;
+  background-position: left;
   background-size: cover; }
   section.page-projectmanagement-header h2 {
     font-size: 7vw;
@@ -1843,7 +1847,17 @@ section.page-projectmanagement-header {
     weight: 400;
     text-align: center;
     margin-top: 0;
-    height: 7vw; }
+    height: 4vw; }
+  section.page-projectmanagement-header .smallertext {
+    font-size: 4vw;
+    height: 3vw; }
+  section.page-projectmanagement-header h3 {
+    font-size: 4vw;
+    color: #3f3f42;
+    weight: 400;
+    text-align: center;
+    margin-top: 0px;
+    height: 0vw; }
 
 section.page-projectmanagement-body {
   display: -webkit-box;
@@ -1880,6 +1894,23 @@ section.page-projectmanagement-body {
     width: 40%;
     min-width: 280px;
     padding-bottom: 100px; }
+  section.page-projectmanagement-body .col-intro {
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    width: 90%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    text-align: justify;
+    padding-bottom: 20px; }
   section.page-projectmanagement-body .order-first {
     -webkit-box-ordinal-group: 1;
     -webkit-order: 0;
@@ -1923,7 +1954,8 @@ section.page-projectmanagement-body {
             transform: scale(1); }
   section.page-projectmanagement-body hr {
     height: 1px;
-    background-color: #ccc; }
+    background-color: #ccc;
+    margin-top: 0px; }
   section.page-projectmanagement-body h2 {
     color: #585858;
     font-weight: 400;
