@@ -1916,25 +1916,48 @@ section.page-projectmanagement-body {
     -webkit-order: 0;
         -ms-flex-order: 0;
             order: 0; }
-  section.page-projectmanagement-body .miningpic {
-    height: 100%;
-    background-image: url(../img/geo-mining3.jpg);
+  section.page-projectmanagement-body .hlp1-1 {
+    height: 50%;
+    background-image: url(../img/dataanalyst-hlp1-1.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     background-box-shadow: 0px 4px 40px 3px rgba(0, 0, 0, 0.5); }
-  section.page-projectmanagement-body .oilandgaspic {
-    height: 100%;
-    background-image: url(http://aemstatic-ww1.azureedge.net/content/dam/etc/medialib/shell/perdido/99561.res);
+  section.page-projectmanagement-body .hlp1-2 {
+    height: 50%;
+    background-image: url(../img/dataanalyst-hlp1-2.png);
     background-position: center;
     background-size: contain;
-    background-repeat: no-repeat; }
-  section.page-projectmanagement-body .masterspic {
-    height: 100%;
-    background-image: url(http://getfilings.com/sec-filings/170130/HYPERDYNAMICS-CORP_8-K_FORM2/g34212moi012.gif);
+    background-repeat: no-repeat;
+    background-box-shadow: 0px 4px 40px 3px rgba(0, 0, 0, 0.5); }
+  section.page-projectmanagement-body .hlp2-1 {
+    height: 50%;
+    background-image: url(../img/dataanalyst-hlp2-1.png);
     background-position: center;
     background-size: contain;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    background-box-shadow: 0px 4px 40px 3px rgba(0, 0, 0, 0.5); }
+  section.page-projectmanagement-body .hlp2-2 {
+    height: 50%;
+    background-image: url(../img/dataanalyst-hlp2-2.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-box-shadow: 0px 4px 40px 3px rgba(0, 0, 0, 0.5); }
+  section.page-projectmanagement-body .hlp3-1 {
+    height: 100%;
+    background-image: url(../img/dataanalyst-hlp3-1.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-box-shadow: 0px 4px 40px 3px rgba(0, 0, 0, 0.5); }
+  section.page-projectmanagement-body .wedding-1 {
+    height: 100%;
+    background-image: url(../img/dataanalyst-wedding-1.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-box-shadow: 0px 4px 40px 3px rgba(0, 0, 0, 0.5); }
   section.page-projectmanagement-body .bachelorspic {
     height: 100%;
     background-image: url(../img/geo-bachelor.gif);
@@ -1977,13 +2000,13 @@ section.page-projectmanagement-body {
       -webkit-order: -1;
           -ms-flex-order: -1;
               order: -1; }
-    section.page-projectmanagement-body .miningpic {
+    section.page-projectmanagement-body .hlp1-1 {
       height: 300px; }
-    section.page-projectmanagement-body .oilandgaspic {
+    section.page-projectmanagement-body .hlp1-2 {
       height: 300px; }
-    section.page-projectmanagement-body .masterspic {
+    section.page-projectmanagement-body .hlp2-1 {
       height: 300px; }
-    section.page-projectmanagement-body .bachelorspic {
+    section.page-projectmanagement-body .hlp2-2 {
       height: 300px; } }
 
 section.page-conservation-header {
