@@ -1627,6 +1627,27 @@ section.page-coding-body {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat; }
+  section.page-coding-body .coding-threemonthbenchmark {
+    height: 100%;
+    max-height: 300px;
+    background-image: url(../img/threemonthbenchmark.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; }
+  section.page-coding-body .coding-sixmonthbenchmark {
+    height: 100%;
+    max-height: 300px;
+    background-image: url(../img/sixmonthbenchmark.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; }
+  section.page-coding-body .coding-oneyearbenchmark {
+    height: 100%;
+    max-height: 300px;
+    background-image: url(../img/oneyearbenchmark.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; }
   section.page-coding-body .coding-website {
     height: 100%;
     max-height: 300px;
@@ -1958,9 +1979,16 @@ section.page-projectmanagement-body {
     background-size: contain;
     background-repeat: no-repeat;
     background-box-shadow: 0px 4px 40px 3px rgba(0, 0, 0, 0.5); }
-  section.page-projectmanagement-body .bachelorspic {
+  section.page-projectmanagement-body .drillingdeviation-1 {
     height: 100%;
-    background-image: url(../img/geo-bachelor.gif);
+    background-image: url(../img/dataanalyst-drillingdeviation-1.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-box-shadow: 0px 4px 40px 3px rgba(0, 0, 0, 0.5); }
+  section.page-projectmanagement-body .olive {
+    height: 100%;
+    background-image: url(../img/olive.jpg);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat; }
